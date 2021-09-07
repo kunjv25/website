@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>offlinewebsite</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<style type="text/css">
+
+                   body{
+                   	background-color: #f5f5f5;
+                   }
+ 
+                   .heading{
+                   	width: 100vw; 
+                   	height: 10vh;
+                   	border: 0px solid white;
+                   }
+
+                   .normalheading31{
+                   	border: 2px solid green;
+                   	width: 100%;
+                   	height: 560px;
+                   }
+
+                   .normalheading32{
+                   	height: 30px;
+                   	border: 2px solid yellow
+                   }
+
+                   .normalheading33{
+                   	padding-right: 0px; 
+                   }
+
+                   .normalheading34{
+                   	padding-left: 10px;
+                   }
+               
+                   .container1{
+                    width: 100vw;
+                    padding-top: 10px;
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 10px;
+                   }
+
+                   .box:hover{
+                   	transform: scale(1.05);
+                   	padding-left: 0px;
+                   	border: 1px solid red;
+                  }
+
+                  .box1:hover{
+                   	transform: scale(1.05);
+                   	padding-left: 0px;
+                   	border: 0px solid red;
+                  }
+
+
+                  .newarrival{
+                  	width: 100vw;
+                  }
+
+								  plate-hover {
+								    -webkit-transform: translate3d(0,0,0);
+								    transform: translate3d(0,0,0);
+								    -webkit-transition: all .3s;
+								    transition: all .3s;
+                  }
+									
+						.plate-normal {
+									  position: relative;
+									  display: -webkit-box;
+									  display: -ms-flexbox;
+									  display: flex;
+									  -webkit-box-orient: vertical;
+									  -webkit-box-direction: normal;
+									  -ms-flex-direction: column;
+									  flex-direction: column;
+									  -webkit-box-align: center;
+									  -ms-flex-align: center;
+									  align-items: center;
+									  width: 288px;
+									  height: 320px;
+									  padding-top: 60px;
+									  overflow: hidden;
+									  background-color: #fff;
+									  color: #000;
+		        }
+
+		            .point-tag {
+									position: absolute;
+									top: 20px;
+							        left: 0;
+								    height: 17px;
+								    display: -webkit-box;
+								    display: -ms-flexbox;
+								    display: flex;
+								    -webkit-box-align: center;
+								    -ms-flex-align: center;
+								    align-items: center;
+								    -webkit-box-pack: center;
+								    -ms-flex-pack: center;
+								    justify-content: center;
+								    padding: 0 4px;
+								    font-weight: 700;
+								    font-size: 12px;
+				}
+
+										.pricefontcolor{
+									
+											            color: #777;
+						                      font-size: 12px;
+				}
+
+
+				.icon-s-freeshipping {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+}
+						
+
+                  .priceredcolor{
+                    font-size: 18px;
+								    line-height: 20px;
+								    color: #dd0b25;
+				}
+
+            @media (max-width: 470px){
+
+            .imagefloat{
+                   	
+                   	width: 1100px;
+                   	height: auto;
+                   }
+
+            .heading{
+                   	width: 1100px;
+                   	height: auto;
+                   }
+
+            .heading1{
+            	width: 950px;
+            	height: auto;
+            }
+
+            .heading2{
+            	width: 150px;
+            	height: auto;
+            }
+             
+              
+            .heading3{
+            	width: 300px;
+            	height: auto;
+            }
+
+            .heading31{
+            	height: auto;
+            	width: 320px;
+            }  
+
+            .heading32{
+            	width: 100px;
+            	height: 20px;
+            	margin-left: 0px;
+            	float: left;
+            	border: 0px solid yellow;
+            }
+
+            .heading33{
+            	width: 90px;
+            	height: 20px;
+            	text-align: right;
+            	margin-right: 0px;
+            	float: right;
+            }
+
+            .heading34{
+            	width: 10px;
+            	height: 20px;
+            	text-align: left;
+            	margin-left: 0px;
+            	float: left;
+            }
+
+
+                 }
+
+                     
+
+              .container-md .row .col1{
+              	max-width: 100%;
+              	max-height: 10px;
+              }
+     </style>
+  </head>
+
+              <body>
+
+    	<div class="container-md heading34 normalheading34" style="background-color: white; height: 30px;  color: #666; margin-bottom: 10px;">
+    		<ul class="row" type="none" style="list-style-type: none;  display: flex;">
+    			<li class="col-1" style=" text-align: center;"><a href="https://www.realme.com/in/realmeow"><font color="#666">realmeow</font></a></li>
+    			<span style="color: #b2b2b2;">|</span>
+    			<li class="col-1" style=" text-align: center;"><a href="https://www.realme.com/in/brand"><font color="#666">Brand</font></a></li>
+    			<span style="color: #b2b2b2;">|</span>
+    			<li class="col-1" style=" text-align: center;"><a href="https://www.realme.com/in/support"><font color="#666">Support</font></a></li>
+    			<span  style="color: #b2b2b2;">|</span>
+    			<li class="col-1" style=" text-align: center;"><a href="https://c.realme.com/in/"><font color="#666">Community</font></a></li>
+    			<span style="color: #b2b2b2; padding-left:15px;">|</span>
+    			<li class="col-1" style=" text-align: center;"><a href="https://www.realme.com/in/app-download"><font color="#666">App</font></a></li>
+    			<span style="color: #b2b2b2;">|</span>
+    			<li class="col-2" style=" text-align: left;  "><a href="https://www.realme.com/in/bulk-order"><font color="#666">Bulk Order</font></a></li>
+    		</ul>
+    	</div>
+
+
+
+    	<div class="container-md sticky-top"  style="background-color: whitesmoke; border: 0px solid hotpink;">
+    		<div class="row heading3">
+            <div class="col-md-2 heading34 normalheading34" style="border: 0px solid black;"><img src="realmelogo.jfif" width="70%" height="40px" style="padding-top: 5px;"></div>
+                  
+            <div class="col-md-10 heading33 normalheading33" style="border: 0px solid black; padding-top: 5px;">
+									    	<ul class="nav justify-content-end">
+														  <li class="nav-item">
+														    <a class="nav-link active" href="websiteoffline.html#" style="color:black;">Home</a>
+														  </li>
+
+														  <li class="nav-item dropdown">
+														    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:black;">Model</a>
+														    <div class="dropdown-menu">
+														      <a class="dropdown-item" href="link5.html">realme  X7 </a>
+														      <a class="dropdown-item" href="link1.html">realme  X3 </a>
+														      <a class="dropdown-item" href="link2.html">realme Nazro 30 </a>
+														      <a class="dropdown-item" href="link3.html">realme  7 Pro </a>
+														    </div>
+														  </li>
+                              
+                              <li class="nav-item dropdown">
+														    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:black;">5G</a>
+														    <div class="dropdown-menu">
+														      <a class="dropdown-item" href="link5.html">realme  X7 <font color="#fcc912">5G</font></a>
+														      <a class="dropdown-item" href="link1.html">realme  X3 <font color="#fcc912">5G</font></a>
+														      <a class="dropdown-item" href="link2.html">realme Nazro 30 <font color="#fcc912">5G</font></a>
+														      <a class="dropdown-item" href="link3.html">realme  7 Pro <font color="#fcc912">5G</font></a>					
+														    </div>
+														  </li>
+														  
+														  <li class="nav-item">
+														    <a class="nav-link" href="contact%20us.html" style="color:black;">Contact us</a>
+														  </li>
+												</ul>
+                  </div>
+            </div>
+      </div>
+
+
+        <div class="container-md normalheading31 heading31 " style="margin-top:10px;  border: 0px solid blue;">
+					            
+					   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="border: 0px solid red;">
+									  <ol class="carousel-indicators">
+									    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+									    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+									    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+									  </ol>
+									  <div class="carousel-inner"><a href="https://event.realme.com/in/realme-8i-launch">
+									    <div class="carousel-item active">
+									      <img src="realme.jpg" class="d-block w-100" alt="...">
+									    </a></div>
+									    <div class="carousel-item"><a href="https://event.realme.com/in/realme-8s-launch">
+									      <img src="realme1.jpg" class="d-block w-100" alt="...">
+									    </a></div>
+									    <div class="carousel-item"><a href="https://buy.realme.com/in/goods/395">
+									      <a href=""><img src="realme3.jpg" class="d-block w-100" alt="..."></a>
+									    </a></div>
+									  <div class="carousel-item"><a href="https://event.realme.com/in/realme-8i-launch">
+									      <img src="realme4.jpg" class="d-block w-100" alt="...">
+									    </a></div>
+									  </div>
+									  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+									    <div class="carousel-control-prev-icon" aria-hidden="true" style=" border: 0px solid red;"></div>
+									    <div class="sr-only">Previous</div>
+									  </a>
+									  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+									    <div class="carousel-control-next-icon" aria-hidden="true" style=" border: 0px solid red;"></div>
+									    <div class="sr-only">Next</div>
+                    </a>
+           </div>
+        </div>
+      
+
+
+
+
+        <div class="container">
+            <div class="row" style="border: 0px solid green; margin-top: 20px;">
+             <div class="card-deck">
+								  <div class="box col heading3" style="margin-left: 1px;">
+								    <a href="https://in.event.mi.com/in/monsoon-must-haves-2021"><img src="4452745132f0a2dbe588fc78b47d37ad.jpg" class="card-img-top rounded-lg"></a>
+								  </div>
+
+								  <div class="box col heading3" style=" margin-left: 1px;">
+								    <a href="https://account.xiaomi.com/fe/service/login?_locale=en_IN&checkSafePhone=false&sid=i18n_in_pc_pro&qs=%253Fcallback%253Dhttps%25253A%25252F%25252Fstore.mi.com%25252Fin%25252Flogin%25252Fcallback%25253Ffollowup%25253Dhttps%2525253A%2525252F%2525252Fstore.mi.com%2525252Fin%2525252Fuser%2525252Freward%2525252F%252526sign%25253DOTQyMzA3OTc0MjA4NjJlMjRjNWJjYmQyMGMxNDY0MjdmOWE2MjQ0MA%25252C%25252C%2526sid%253Di18n_in_pc_pro%2526_locale%253Den_IN%2526checkSafePhone%253Dfalse&callback=https%3A%2F%2Fstore.mi.com%2Fin%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Fstore.mi.com%252Fin%252Fuser%252Freward%252F%26sign%3DOTQyMzA3OTc0MjA4NjJlMjRjNWJjYmQyMGMxNDY0MjdmOWE2MjQ0MA%2C%2C&_sign=K4NTmTIv4zJdze3yXcAKlfM2UiE%3D&serviceParam=%7B%22checkSafePhone%22%3Afalse%2C%22checkSafeAddress%22%3Afalse%2C%22lsrp_score%22%3A0.0%7D&showActiveX=false&theme=&needTheme=false&bizDeviceType="><img src="cec6ced07a1dec95b1665c57e70c97c4.jpg" class="card-img-top rounded-lg"></a>
+								  </div>
+
+								  <div class="box col heading3" style="margin-left: 1px;">
+								    <a href="https://in.event.mi.com/in/why-mi"><img src="3a2011f5b6deb576ffa1ae4a13ec08f2.jpg" class="card-img-top rounded-lg"></a>
+								  </div>
+             </div>
+           </div>
+         </div>
+
+
+         <div class="container-md newarrival heading" style="margin-top: 50px; height: 500px; border: 0px solid yellow; background-color: ">
+            <div style="font-size: 30px; font-weight: 400; border: 0px solid red; text-align: center; padding-top: 20px; padding-bottom: 30px; border: 0px solid red; text-shadow: #fc0 0px 0 10px;  color: grey; "><h1>New Coming</h1></div>
+                
+        
+
+                     
+      <div class="containerfluid1">
+           <div class="row"> 
+ 			           <div class="card-deck heading3" style="border: 0px solid red; background-color: ffd5d9; width: 100vw; height: 355px;">
+
+											  <div class="col card box heading3">
+															    <a href="link5.html" style="text-decoration:none;"><font color="black"><img src="newarrival3.png" class="card-img-top" style="padding-left: 20px; width: 220px; padding-top: 30px;">
+																		<span class="point-tag" style="color: white; background: red;">
+													          ₹ 2,000 Off
+													          </span>
+																    <span style="padding-left:75px;"><strong>realme X7 </strong><font color="#fccd12">&nbsp;5G</font></span>
+															      <br/>
+                                    <span style="padding-left:75px;">Future in Style</span>
+                                    <br/><br/>
+                                    <span style="padding-left: 55px;"><small>From</small> <font color="red">₹ 22,999</font> <span style="text-decoration: line-through;"><small>₹ 24,999</small></span>
+                                    </span>
+																    </font></a>
+												</div>
+															  
+										    <div class="col card box heading3" style=" margin-left: 10px;">
+                                    <a href="link2.html" style="text-decoration:none;"><font color="black"><img src=" 1614061225119.png" class="card-img-top" style="padding-left: 20px; width: 220px; height: auto; padding-top: 30px; padding-top: 30px; ">
+							                      <span class="point-tag" style="color: white; background: red;">
+															      ₹ 1,000 Off
+														        </span>
+																    <span style="padding-left:55px;"><strong>realme Nazro 30 </strong><font color="#fccd12">&nbsp;5G</font>
+																    <br/>
+                                    <span style="padding-left:75px;">Future in Style</span>
+                                    <br/><br/>
+                                    <span style="padding-left: 55px;"><small>From</small> <font color="red">₹ 20,999</font> <span style="text-decoration: line-through;"><small>₹ 21,999</small></span>
+                                    </span>
+																    </span>
+																    </a></font>
+												</div>
+															  
+											  <div class="col card box heading3" style="margin-left: 10px;">
+															    <a href="link3.html" style="text-decoration:none;"><font color="black"><img src=" 13.jpg" class="card-img-top" style="padding-left: 20px; width: 220px; height: auto; padding-top: 30px;padding-top: 30px; ">
+																	  <span class="point-tag" style="color: white; background: red;">
+												            ₹ 2,000 Off
+												            </span>
+															      <span style="padding-left:75px;"><strong>realme 7 Pro </strong><font color="#fccd12">&nbsp;5G</font>
+															      <br/>
+                                    <span style="padding-left:85px;">Future in Style</span>
+                                    <br/><br/>
+                                    <span style="padding-left:65px;"><small>From</small> <font color="red">₹ 17,999</font> <span style="text-decoration: line-through;"><small>₹ 19,999</small></span>
+                                    </span>
+																    </span>
+																    </a></font>
+																    
+						</div>
+															  
+												<div class="col card box heading3" style="margin-left: 10px;">
+															    <a href="link1.html" style="text-decoration:none;"><font color="black"><img src="newarrival1.png" class="card-img-top" style="padding-left: 20px; width: 220px; height: auto; padding-top: 30px; padding-top: 30px;">
+																		<span class="point-tag" style="color: white; background: red;">
+													          ₹ 2,000 Off
+													          </span>
+																    <span style="padding-left:65px;"><strong>realme  X3 </strong><font color="#fccd12">&nbsp;5G</font>
+																    <br/>
+                                    <span style="padding-left:65px;">Future in Style</span>
+                                    <br/><br/>
+                                    <span style="padding-left:50px;"><small>From</small> <font color="red">₹ 17,999</font> <span style="text-decoration: line-through;"><small>₹ 19,999</small></span>
+                                    </span>
+																    </span>
+																    </a></font>
+													</div>
+					        </div>
+					  </div>
+			</div>
+
+
+
+	    <div class="container1" style="border: 0px solid green; margin-top: 40px; width: 100%; height: 773px; padding-left: 0px;">
+	         <div class="card-deck">
+	         	    <div class="row">  
+	         	        <div class="col-6 box1" style="padding-left: 50px;"><a href=""><img src="3.jpg" height="320px" width="500px"></a></div>
+	         	        <div class="col-6 box1" style="padding-left: 25px;"><a href="https://api.whatsapp.com/message/RWBLGAJ3VSYWH1"><img src="4.jpg" height="320px" width="500px"></a></div>
+	              </div>
+	              <div class="row" style="margin-top: 0px;">
+	         	         <div class="col-6 box1" style="padding-left: 50px;"><a href="https://event.realme.com/in/collect-game"><img src="1.jpg" height="320px" width="500px"></a></div>
+	         	         <div class="col-6 box1" style="padding-left: 25px;"><a href=""><img src="2.jpg" height="320px" width="500px"></a></div>
+	              </div>
+	    </div>
+	</div>
+
+
+
+
+
+
+
+	          <div class="container-md heading" style=" background: white; border-top: 0px solid orange;
+	          border-bottom: 0px solid orange; width: 100%; height: 180px; margin-top: -10px;">
+							 	<div class="row">
+							       		
+							     		<div class="col"style="  border: 0px solid greenyellow;  padding-left: 50px;"><a href="https://www.realme.com/in/legal/terms-sales" style="text-decoration:none;"><img src="WhatsApp Image 2021-08-21 at 5.28.49 PM.jpeg" style="width: 110px; height: 110px;">
+							     			<br/><br/>
+							     			<span style="font-family: cursive; border: 0px solid greenyellow; color: black;">Free Shiping</span></a>
+							     		</div>
+
+							     		<div class="col" style="  border: 0px solid greenyellow;  padding-left: 100px; padding-top: 5px;"><a href="https://www.realme.com/in/legal/terms-sales" style="text-decoration:none;"><img src="WhatsApp Image 2021-08-21 at 5.32.09 PM.jpeg" style="width: 95px; height: 110px;">
+							     			<br/><br/>
+							     			<span style="font-family: cursive; border: 0px solid greenyellow; color: black">Secured Payment</span></a>
+							     		</div>
+
+							        <div class="col" style=" border: 0px solid greenyellow;  padding-left: 100px;"><a href="https://www.realme.com/in/legal/terms-sales" style="text-decoration:none;"><img src="WhatsApp Image 2021-08-21 at 5.33.10 PM.jpeg" style="width: 110px; height: 110px;">
+							        	<br/><br/>
+							     		<span style="font-family: cursive; border: 0px solid greenyellow; color: black">Cash on Delivery</span></a>
+							        </div>
+	              </div>
+            </div>
+
+            <div class="container-md" style="margin-top: 50px; font-size:15px; height:300px; border-top: 0px solid green;">
+            	<div class="row heading">
+
+            		<div class="col-2" style=" border:  0px solid green;">
+            			<b> Recommended</b>
+            			<br/>
+            			<span style="font-size: 13px; line-height:3;"><br/>
+            			realme narzo 30A
+            			<br/>
+            			realme narzo 30 Pro 5G
+            			<br/>
+									realme X7 Pro 5G
+									<br/>
+									realme X7 5G
+									<br/>
+									realme X7 Max 5G
+									<br/>
+									realme C25
+            		</span></div>
+
+            		<div class="col-2" style="border:0px solid green;">
+            			<b> Support  </b>
+            			<br/>
+            		<span style="font-size: 13px; line-height:3;"><br/>
+            		FAQ
+            		<br/>
+								Troubleshooting
+								<br/>
+								User Guide
+								<br/>
+								Service Centers
+								<br/>
+								E-waste Management	
+            		</span></div>
+
+
+
+            		<div class="col-2" style="border:0px solid green;">
+           			<b> About realme </b>
+                <br/>
+            		<span style="font-size: 13px; line-height:3;"><br/>
+            		Our Brand
+            		<br/>
+								Newsroom
+								<br/>
+								Retail Store
+								<br/>
+								Bulk Order
+								<br/>
+								Declaration
+                </span></div>
+
+
+
+            		<div class="col-2" style=" border:  0px solid green;">
+            			<b> Contact realme </b>
+                <br/>
+            		<span style="font-size: 13px; line-height:3;"><br/>
+                service@realme.com
+                 <br/>
+								orders.in@realme.com
+                </span></div>
+ 
+
+          <div class="col" style="  border: 0px solid red; margin-top: -4px;  text-align: left; padding-left: 44px;">
+            			<h3>1800 102 2777</h3>
+            			<small><span style="padding-left: 30px;">
+            			 9:00-18:00, MON-SUN</span>
+            			<br/>
+									<span style="padding-left: 40px;">Including Holidays</span></small>
+									<br/><br/><br/>
+									<h5 style="letter-spacing: -1px; border:0px solid black;"><a href="https://chat-g.realmeservice.com/webchat/visitorEnter.do?queue=1&from=web" style="text-decoration:none;">&#127911;<font color="black"> CHAT SUPPORT</font></a></h5>
+									<small><span style="padding-left: 30px;">
+									 9:00-18:00, MON-SUN</span>
+									<br/>
+									<span style="padding-left: 40px;">Including Holidays</span></small>
+          </div>
+        
+
+<div class="col-12" style="margin-top: 40px;">realme india</div>
+<div class="col-10" style="border: 1px solid lightgrey;"></div>
+<div class="col-12">copy right c</div>
+
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</body>
+</html>
